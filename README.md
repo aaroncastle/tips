@@ -27,3 +27,13 @@
         user-select: none;
     }
 ```
+- css计数器
+```css
+    div{
+        counter-reset: kaivon;
+    }
+    div:before{
+        counter-increment: kaivon;
+        connter: counter(kaivon);
+    }
+```
