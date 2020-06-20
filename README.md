@@ -27,13 +27,13 @@
         user-select: none;
     }
 ```
-- css计数器
+- css计数器  一般多用于li，让其自动计数从1开始（非从0开始）
 ```css
     div{
         counter-reset: kaivon;
     }
     div:before{
         counter-increment: kaivon;
-        connter: counter(kaivon);
+        content: counter(kaivon);
     }
 ```
