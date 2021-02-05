@@ -37,3 +37,8 @@
         content: counter(kaivon);
     }
 ```
+------
+```css
+    pointer-events: none;
+```
+> 有此属性且值为'none'的元素，不会接受任何的鼠标事件。但如果子元素也有此属性但是别的值会有正常的捕获与冒泡事件的传递
